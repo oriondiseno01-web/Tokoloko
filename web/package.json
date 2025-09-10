@@ -1,0 +1,11 @@
+{
+  "name": "web",
+  "version": "1.0.0",
+  "scripts": {
+    "postinstall": "prisma generate",
+    "test": "echo \"No tests\""
+  },
+  "devDependencies": {
+    "prisma": "^5.16.1"
+  }
+}
