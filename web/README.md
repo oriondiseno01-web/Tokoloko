@@ -1,3 +1,3 @@
 # Web
 
-Después de ejecutar `npm install`, corre `npx prisma generate` antes de ejecutar `npm test` para asegurar que el binario de Prisma se descargue correctamente.
+`npm install` ejecuta automáticamente `prisma generate` para descargar el binario correcto del cliente de Prisma en cada instalación. Si necesitas regenerarlo manualmente, puedes ejecutar `npx prisma generate` antes de continuar con otros comandos como `npm test`.
